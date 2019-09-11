@@ -1,0 +1,90 @@
+$main_color: #fafafa;
+$dark_main_color: #e8e8e8;
+$user_color: #4d4d4d;
+$message_color: #757575;
+
+
+.userChat{
+	height: 400px;
+	width: 600px;
+	background: $main_color;
+	border-radius: 10px;
+	margin: 0 auto;
+	&__message{
+		display: flex;
+
+		&-autor{
+			margin-left: 20px;
+			color: $message_color;
+			padding: 20px;
+		}
+		&-message{
+			display: block;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-right: 20px;  
+		}
+		&-message_time{
+			padding-top: 27px;
+			color: $message_color;
+			font-size: 12px;
+			margin-bottom: 5px;
+		}
+	}
+	&__header{
+		background-color: $dark_main_color;
+		height: 55px;
+		widows: 100%;
+		border-radius: 10px 10px 0 0;
+		p{
+			padding-left: 30px;
+			line-height: 55px; 
+			font-size: 15px;
+			font-family: Roboto; 
+			color: $user_color;
+			font-weight: bold;
+		}
+	}
+	&__chatArea{
+		background-color: $main_color;
+		height: 90%;
+		width: 100%;
+		overflow: scroll;
+	}
+	&__textArea{
+		
+		background-color: $dark_main_color;
+		height: 45px;
+		margin: 0;
+		padding: 0;
+		input[type='text']{
+			border: none;
+			background-color: $dark_main_color;
+			width: 80%;
+			height: 100%;
+			padding-left: 30px;
+			color: $message_color;
+		}
+		
+		.autor{
+			display: none;
+		}
+		.time{
+			display: none;
+		}
+	}
+	&__sendbutton{
+		border: none;
+		background-color: $dark_main_color;
+		height: 100%;
+		color: $message_color;
+	}
+}
+
+.event-text{
+	font-family: Roboto;
+	color: $message_color;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+

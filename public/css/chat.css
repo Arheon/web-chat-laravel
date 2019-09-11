@@ -1,0 +1,93 @@
+.userChat {
+  height: 400px;
+  width: 600px;
+  background: #fafafa;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.userChat__message {
+  display: flex;
+}
+
+.userChat__message-autor {
+  margin-left: 20px;
+  color: #757575;
+  padding: 20px;
+}
+
+.userChat__message-message {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.userChat__message-message_time {
+  padding-top: 27px;
+  color: #757575;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.userChat__header {
+  background-color: #e8e8e8;
+  height: 55px;
+  widows: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.userChat__header p {
+  padding-left: 30px;
+  line-height: 55px;
+  font-size: 15px;
+  font-family: Roboto;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+.userChat__chatArea {
+  background-color: #fafafa;
+  height: 90%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.userChat__textArea {
+  background-color: #e8e8e8;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.userChat__textArea input[type=text] {
+  border: none;
+  background-color: #e8e8e8;
+  width: 80%;
+  height: 100%;
+  padding-left: 30px;
+  color: #757575;
+}
+
+.userChat__textArea .autor {
+  display: none;
+}
+
+.userChat__textArea .time {
+  display: none;
+}
+
+.userChat__sendbutton {
+  border: none;
+  background-color: #e8e8e8;
+  height: 100%;
+  color: #757575;
+}
+
+.event-text {
+  font-family: Roboto;
+  color: #757575;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
