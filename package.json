@@ -25,6 +25,6 @@
     },
     "dependencies": {
         "laravel-echo": "^1.5.4",
-        "socket.io": "^2.2.0"
+        "socket.io": "^2.4.0"
     }
 }
